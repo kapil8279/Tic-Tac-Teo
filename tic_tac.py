@@ -45,6 +45,7 @@ def result():
     if button[0][2]['text'] == button[1][1]['text'] and button[0][2]['text'] == button[2][0]['text'] and button[0][2]['text'] != '':
         messagebox.showinfo(message='Match found!')
         update()
+#UI start here
 root = Tk()
 root.title('Tic Tac game')
 frame = Frame(root)
